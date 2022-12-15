@@ -26,7 +26,14 @@ public class Main {
 //       System.out.println("medium");
 //     else if(counts>1000)
 //       System.out.println("High");
-    
+    int lw=0,med=0,hi=0;
+    for(int i=0;i<a.length;i++)
+      if(a1<100){
+        System.out.println("low");
+        else if (a1>950  && a1<450)
+          System.out.println("medium);
+          else 
+           System.out.println("High");    
   }
 
   public static void main(String[] args) {
